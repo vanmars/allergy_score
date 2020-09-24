@@ -14,7 +14,7 @@ describe('AllergyScore#get_allergies') do
 
   it('returns [eggs, peanuts] if input is "3"') do
     allergies = AllergyScore.new("3")
-    expect(allergies.get_allergies).to(eq(["eggs, peanuts"]))
+    expect(allergies.get_allergies).to(eq(["eggs", "peanuts"]))
   end
 
 end
