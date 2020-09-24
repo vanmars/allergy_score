@@ -17,4 +17,9 @@ describe('AllergyScore#get_allergies') do
     expect(allergies.get_allergies).to(eq(["eggs", "peanuts"]))
   end
 
+  it('returns [eggs, peanuts, shellfish, strawberries] if input is "15"') do
+    allergies = AllergyScore.new("15")
+    expect(allergies.get_allergies).to(eq(["eggs", "peanuts", "shellfish", "strawberries"]))
+  end
+
 end
