@@ -1,24 +1,22 @@
-# _Allergies_
+# _Allergy Score_
 
 _24 September 2020_
 
-#### _A Ruby project that takes in a user's allergies and returns them with their allergy score (for Epicodus)_
+#### _A Ruby project that takes in a user's allergy score and returns the allergies that comprise that score (for Epicodus)_
 
 #### By _**Drew Parker, Vanessa Stewart**_
 
 ## Description
-
-_This is a project for Epicodus to practice using test driven development with Ruby and to practice Ruby methods and loops. The program takes in a number and returns a string representing those numbers._
+_This is a project for Epicodus to practice using test driven development with Ruby and to practice Ruby methods and loops. The program takes in an allergy score number and returns a string with the allergies represented by that score._
 
 ## Specifications
 | Spec     | Behavior | Input    | Output   |
 | -------- | -------- | -------- | -------- |
-| 1 | return an array containing the values of each allergen score| "1" | ["eggs"] |
-| 2 | return allergen for given score | "2" | ["peanuts"] |
-| 3 | return multiple allergens for a given score | "3" | ["peanuts", "eggs"] |
+| 1 | Program returns an array containing allergens for score "1" | "1" | ["eggs"] |
+| 2 | Program returns allergens for given score "2" | "2" | ["peanuts"] |
+| 3 | Program returs all allergens for a given score | "3" | ["peanuts", "eggs"] |
 
 ## Setup/Installation Requirements
-
 To Extend This Project:
 * Clone this project using the 'git clone' command in terminal.
 * Open the cloned repo in a text editor of your choice.
@@ -27,12 +25,10 @@ To Extend This Project:
 _There are no known bugs at this time._
 
 ## Technologies Used
-
 * Ruby
 * Ruby Gems: rspec, pry 
 
 ### License
-
 Copyright (c) 2020 **_Drew Parker and Vanessa Stewart_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
